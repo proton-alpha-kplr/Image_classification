@@ -26,7 +26,7 @@ import cv2
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = './static/model/tounsiModel.h5'
+MODEL_PATH = './static/model/Model.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
